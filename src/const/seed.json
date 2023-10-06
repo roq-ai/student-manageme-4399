@@ -1,0 +1,2372 @@
+[
+  {
+    "teacher": [
+      {
+        "id": "25c5fd62-9745-4ba7-88b9-96f6064d6394",
+        "subject": "Mathematics",
+        "hire_date": "2023-10-05T11:13:20.984Z",
+        "created_at": "2023-10-06T04:25:08.351Z",
+        "updated_at": "2023-10-05T18:09:05.727Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2673f9ad-3ed1-4ce0-a828-ad64bcdd2cf7",
+        "subject": "English Literature",
+        "hire_date": "2023-10-06T00:18:50.345Z",
+        "created_at": "2023-10-06T00:51:50.685Z",
+        "updated_at": "2023-10-05T15:50:20.075Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05d92dcd-8c82-405d-a536-e0209a852c9c",
+        "subject": "Science",
+        "hire_date": "2023-10-06T01:12:48.784Z",
+        "created_at": "2023-10-05T12:46:03.828Z",
+        "updated_at": "2023-10-05T19:52:34.600Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82fe5489-a4e2-48b0-91a6-dc36485f3673",
+        "subject": "History",
+        "hire_date": "2023-10-05T06:25:19.116Z",
+        "created_at": "2023-10-05T20:07:02.907Z",
+        "updated_at": "2023-10-06T04:17:31.128Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c63c0a1-b2c2-48d7-9cda-c7c56061dd0e",
+        "subject": "Computer Science",
+        "hire_date": "2023-10-05T09:15:17.850Z",
+        "created_at": "2023-10-06T01:02:50.041Z",
+        "updated_at": "2023-10-05T21:14:00.224Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "5bcbe742-85f7-457a-9001-269623ebb889",
+        "grade": 29774,
+        "enrollment_date": "2023-10-05T16:50:48.254Z",
+        "created_at": "2023-10-06T01:51:32.142Z",
+        "updated_at": "2023-10-05T15:38:37.535Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0867c35-7a72-47dc-8b4f-54815870d2b1",
+        "grade": 27577,
+        "enrollment_date": "2023-10-06T03:37:34.804Z",
+        "created_at": "2023-10-05T10:23:18.466Z",
+        "updated_at": "2023-10-05T13:28:14.980Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e43eb6e9-794e-42c9-88a0-3425ac5b1295",
+        "grade": 96426,
+        "enrollment_date": "2023-10-05T23:37:33.597Z",
+        "created_at": "2023-10-05T14:02:03.159Z",
+        "updated_at": "2023-10-05T14:11:47.098Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0444b095-58fb-476e-a443-c4b91508ad8a",
+        "grade": 25023,
+        "enrollment_date": "2023-10-06T04:00:46.975Z",
+        "created_at": "2023-10-05T18:50:56.058Z",
+        "updated_at": "2023-10-05T19:33:12.586Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f78fd6a-a569-4b19-b52c-712dd6b06a64",
+        "grade": 1173,
+        "enrollment_date": "2023-10-05T07:13:44.458Z",
+        "created_at": "2023-10-05T06:59:28.143Z",
+        "updated_at": "2023-10-06T04:37:14.330Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parent": [
+      {
+        "id": "0228c040-8e2c-4648-ac6e-938cc398c6bb",
+        "relation": "Father",
+        "contact_number": "123-456-7890",
+        "created_at": "2023-10-06T02:49:08.137Z",
+        "updated_at": "2023-10-05T10:58:24.023Z",
+        "student_id": "e43eb6e9-794e-42c9-88a0-3425ac5b1295",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67e22309-6903-4527-bbad-cfb331e9327c",
+        "relation": "Mother",
+        "contact_number": "987-654-3210",
+        "created_at": "2023-10-05T18:14:06.255Z",
+        "updated_at": "2023-10-05T08:34:09.844Z",
+        "student_id": "5bcbe742-85f7-457a-9001-269623ebb889",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f579b95-d725-4acf-b7ab-9f01e4f4e7a3",
+        "relation": "Guardian",
+        "contact_number": "555-123-4567",
+        "created_at": "2023-10-05T11:08:45.624Z",
+        "updated_at": "2023-10-06T01:26:47.607Z",
+        "student_id": "b0867c35-7a72-47dc-8b4f-54815870d2b1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a331ecd8-8971-49dc-a0c5-4aebca54e1ab",
+        "relation": "Step-parent",
+        "contact_number": "888-999-0000",
+        "created_at": "2023-10-05T20:35:30.696Z",
+        "updated_at": "2023-10-05T17:33:39.447Z",
+        "student_id": "e43eb6e9-794e-42c9-88a0-3425ac5b1295",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e1daeba-73fb-4d23-afd3-f3c2fb721437",
+        "relation": "Grandparent",
+        "contact_number": "444-555-6666",
+        "created_at": "2023-10-05T09:18:08.147Z",
+        "updated_at": "2023-10-05T22:56:25.458Z",
+        "student_id": "5bcbe742-85f7-457a-9001-269623ebb889",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "7710e5c8-07da-49d4-90db-e128707fc4cb",
+        "name": "Introduction to Biology",
+        "description": "Explore the fascinating world of biology",
+        "created_at": "2023-10-05T15:39:59.470Z",
+        "updated_at": "2023-10-06T01:19:30.819Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "0c63c0a1-b2c2-48d7-9cda-c7c56061dd0e"
+      },
+      {
+        "id": "61beef56-cce5-41a3-a626-d0afd21458dc",
+        "name": "Advanced Calculus",
+        "description": "Dive into the complexities of calculus",
+        "created_at": "2023-10-05T09:16:28.167Z",
+        "updated_at": "2023-10-06T00:58:01.912Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "82fe5489-a4e2-48b0-91a6-dc36485f3673"
+      },
+      {
+        "id": "6a57cf17-441f-4337-8af6-07514edeb757",
+        "name": "Literary Analysis",
+        "description": "Analyze and interpret great works of literature",
+        "created_at": "2023-10-05T21:39:54.049Z",
+        "updated_at": "2023-10-05T15:29:42.504Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "0c63c0a1-b2c2-48d7-9cda-c7c56061dd0e"
+      },
+      {
+        "id": "9a5b2109-14d3-45e5-81db-539672318fcd",
+        "name": "World History",
+        "description": "Uncover the events that shaped our world",
+        "created_at": "2023-10-06T03:18:18.856Z",
+        "updated_at": "2023-10-05T20:55:05.614Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "05d92dcd-8c82-405d-a536-e0209a852c9c"
+      },
+      {
+        "id": "9edc6a9c-2229-4fd0-9b5f-26ecf38cfa75",
+        "name": "Web Development",
+        "description": "Build dynamic websites and applications",
+        "created_at": "2023-10-06T01:50:37.364Z",
+        "updated_at": "2023-10-06T02:38:44.714Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "82fe5489-a4e2-48b0-91a6-dc36485f3673"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "29e7994c-e3dc-48ff-8758-816c1a29696f",
+        "email": "Antonia_Klein25@roq.tech",
+        "firstName": "Rickey",
+        "lastName": "Erdman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88763938",
+        "tenantId": null
+      },
+      {
+        "reference": "264a6e99-7857-4a22-bc57-8a3072e8b737",
+        "email": "Annalise_Glover66@roq.tech",
+        "firstName": "Cory",
+        "lastName": "Spinka",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72491488",
+        "tenantId": null
+      },
+      {
+        "reference": "f9595061-bb80-461d-83a0-441387f0a25d",
+        "email": "Kayleigh_Quitzon@roq.tech",
+        "firstName": "Iliana",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52121316",
+        "tenantId": null
+      },
+      {
+        "reference": "8f2825e2-2eae-4893-89b7-39afa644af87",
+        "email": "Marley_Bode@roq.tech",
+        "firstName": "Donavon",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37014421",
+        "tenantId": null
+      },
+      {
+        "reference": "eafc98bc-887c-4d99-90b3-8b5ed08a50d0",
+        "email": "Lucio98@roq.tech",
+        "firstName": "Kenna",
+        "lastName": "Rice",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92581090",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "8d269e9b-3396-4be5-8e56-6ecb31f9080e",
+        "subject": "Mathematics",
+        "hire_date": "2023-10-05T12:39:56.794Z",
+        "created_at": "2023-10-05T15:23:38.285Z",
+        "updated_at": "2023-10-05T19:40:14.919Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7fdccf47-4b11-44db-938e-debb35db4377",
+        "subject": "English",
+        "hire_date": "2023-10-05T05:58:26.855Z",
+        "created_at": "2023-10-05T08:15:39.630Z",
+        "updated_at": "2023-10-05T13:03:09.389Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1bada38-b40c-4cac-a795-b6082554cbab",
+        "subject": "Science",
+        "hire_date": "2023-10-06T00:26:50.927Z",
+        "created_at": "2023-10-05T21:28:31.607Z",
+        "updated_at": "2023-10-05T14:33:23.033Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4ce2738-57d9-49f1-b2b9-cd732e38bd5f",
+        "subject": "History",
+        "hire_date": "2023-10-06T01:19:26.846Z",
+        "created_at": "2023-10-05T13:01:38.798Z",
+        "updated_at": "2023-10-05T23:14:27.845Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8dd9f1a-98f0-47a7-860a-07b27265ab29",
+        "subject": "Computer Science",
+        "hire_date": "2023-10-06T05:34:20.248Z",
+        "created_at": "2023-10-05T13:47:40.810Z",
+        "updated_at": "2023-10-05T15:47:31.121Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "32ab09f4-1f40-4d1b-9066-5c581cd5e08e",
+        "grade": 45493,
+        "enrollment_date": "2023-10-05T10:40:01.098Z",
+        "created_at": "2023-10-05T16:57:11.795Z",
+        "updated_at": "2023-10-05T06:42:02.037Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1dd71d8-9312-482e-94cf-10a9833fe0b3",
+        "grade": 80622,
+        "enrollment_date": "2023-10-05T18:53:48.802Z",
+        "created_at": "2023-10-05T16:23:22.623Z",
+        "updated_at": "2023-10-05T20:31:59.749Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d42699c-00a3-4d4f-8157-d31a3b70c981",
+        "grade": 79280,
+        "enrollment_date": "2023-10-06T02:45:17.097Z",
+        "created_at": "2023-10-05T07:18:08.453Z",
+        "updated_at": "2023-10-06T03:21:53.699Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d5c3754-9766-4841-ba90-45aed073c043",
+        "grade": 58467,
+        "enrollment_date": "2023-10-05T09:28:42.696Z",
+        "created_at": "2023-10-06T00:49:09.913Z",
+        "updated_at": "2023-10-05T06:37:21.949Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb8607d9-4dfb-4481-b5c8-d75507c0f766",
+        "grade": 21513,
+        "enrollment_date": "2023-10-05T23:35:08.011Z",
+        "created_at": "2023-10-05T22:13:19.561Z",
+        "updated_at": "2023-10-05T15:11:36.680Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parent": [
+      {
+        "id": "eddf542a-6bc2-4ba6-8c77-1c88d0d854b9",
+        "relation": "Father",
+        "contact_number": "+1 123-456-7890",
+        "created_at": "2023-10-05T21:36:37.153Z",
+        "updated_at": "2023-10-06T05:04:31.471Z",
+        "student_id": "9d42699c-00a3-4d4f-8157-d31a3b70c981",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "efd16344-b6bb-4cfd-97c1-d107060fc587",
+        "relation": "Mother",
+        "contact_number": "+1 987-654-3210",
+        "created_at": "2023-10-05T09:10:24.726Z",
+        "updated_at": "2023-10-05T11:20:30.718Z",
+        "student_id": "1d5c3754-9766-4841-ba90-45aed073c043",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7248663f-2360-4548-afeb-9ae811d6828d",
+        "relation": "Guardian",
+        "contact_number": "+1 555-123-4567",
+        "created_at": "2023-10-05T23:48:02.674Z",
+        "updated_at": "2023-10-05T11:10:25.855Z",
+        "student_id": "e1dd71d8-9312-482e-94cf-10a9833fe0b3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04bd0177-72ca-48b0-975f-3e9975d6d44e",
+        "relation": "Step-parent",
+        "contact_number": "+1 888-555-9999",
+        "created_at": "2023-10-05T21:01:52.238Z",
+        "updated_at": "2023-10-05T21:29:57.830Z",
+        "student_id": "fb8607d9-4dfb-4481-b5c8-d75507c0f766",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90d81e1d-b309-44f1-8222-1e0002c72165",
+        "relation": "Grandparent",
+        "contact_number": "+1 777-888-9999",
+        "created_at": "2023-10-06T00:31:12.381Z",
+        "updated_at": "2023-10-05T06:58:21.891Z",
+        "student_id": "32ab09f4-1f40-4d1b-9066-5c581cd5e08e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "5ac96507-5156-48c3-b095-831b4fac392c",
+        "name": "Algebra",
+        "description": "Explore the world of equations and functions",
+        "created_at": "2023-10-06T05:27:32.228Z",
+        "updated_at": "2023-10-06T01:43:25.147Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "d1bada38-b40c-4cac-a795-b6082554cbab"
+      },
+      {
+        "id": "528db3c7-1303-4953-a3cd-45f09d02aef1",
+        "name": "Biology",
+        "description": "Discover the wonders of the living organisms",
+        "created_at": "2023-10-05T15:17:44.102Z",
+        "updated_at": "2023-10-06T04:03:08.455Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "d8dd9f1a-98f0-47a7-860a-07b27265ab29"
+      },
+      {
+        "id": "bf54cf5b-55ca-4e42-8793-e7f8ceb9bdd0",
+        "name": "Literature",
+        "description": "Immerse yourself in the world of literature",
+        "created_at": "2023-10-05T13:33:13.558Z",
+        "updated_at": "2023-10-05T16:56:35.479Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "7fdccf47-4b11-44db-938e-debb35db4377"
+      },
+      {
+        "id": "996b0920-438e-4ed8-99de-06f8284ac390",
+        "name": "Chemistry",
+        "description": "Uncover the secrets of chemical reactions",
+        "created_at": "2023-10-06T01:03:57.393Z",
+        "updated_at": "2023-10-05T07:05:04.924Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "d1bada38-b40c-4cac-a795-b6082554cbab"
+      },
+      {
+        "id": "23eb156b-5b0b-41e2-8b33-27b6ff06e69c",
+        "name": "Computer Programming",
+        "description": "Learn to code and create amazing programs",
+        "created_at": "2023-10-06T04:50:30.391Z",
+        "updated_at": "2023-10-05T11:09:34.945Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "d8dd9f1a-98f0-47a7-860a-07b27265ab29"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c2a839fb-8283-416c-97fe-4b15083d018c",
+        "email": "Alicia.Farrell@roq.tech",
+        "firstName": "Nellie",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1156.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2f746f47-97aa-4666-ada4-9b565a292ff7",
+        "email": "Lucy.Kreiger@roq.tech",
+        "firstName": "Alexa",
+        "lastName": "Purdy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/648.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8b5e072b-fa87-47a8-95be-58e890f6e939",
+        "email": "Junior21@roq.tech",
+        "firstName": "Kennedi",
+        "lastName": "Will",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/861.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "87ba71fd-8650-4568-8881-c34e5cb92378",
+        "email": "Germaine_Boehm46@roq.tech",
+        "firstName": "Urban",
+        "lastName": "Cronin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15568408",
+        "tenantId": null
+      },
+      {
+        "reference": "adc39fb2-1609-4e35-b3cb-79cd4769d00c",
+        "email": "Barton.Wintheiser@roq.tech",
+        "firstName": "Giles",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30975610",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "6c55a7b9-183a-4063-b24b-c61a26c48b00",
+        "subject": "Mathematics",
+        "hire_date": "2023-10-05T19:47:47.978Z",
+        "created_at": "2023-10-05T08:50:57.304Z",
+        "updated_at": "2023-10-05T23:58:35.814Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b3f06ed-7107-4acd-b33f-b9e47c57da5f",
+        "subject": "English Literature",
+        "hire_date": "2023-10-05T07:14:11.176Z",
+        "created_at": "2023-10-05T23:42:01.570Z",
+        "updated_at": "2023-10-05T07:56:01.027Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4090d31e-1e13-45f2-bef9-41de2cd3d12f",
+        "subject": "Science",
+        "hire_date": "2023-10-05T20:30:20.555Z",
+        "created_at": "2023-10-06T01:14:18.320Z",
+        "updated_at": "2023-10-05T16:15:05.874Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f0e9f79-f999-470b-a33c-820415c74e0c",
+        "subject": "History",
+        "hire_date": "2023-10-05T19:24:44.419Z",
+        "created_at": "2023-10-05T17:01:09.432Z",
+        "updated_at": "2023-10-05T09:14:41.192Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9cdb277e-129a-4c5e-a625-115bd0fc9fa4",
+        "subject": "Computer Science",
+        "hire_date": "2023-10-05T09:19:49.608Z",
+        "created_at": "2023-10-05T08:14:58.948Z",
+        "updated_at": "2023-10-05T18:26:54.005Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "e772bbf9-892b-44e6-991f-18ca335f3ccd",
+        "grade": 6748,
+        "enrollment_date": "2023-10-05T21:11:39.582Z",
+        "created_at": "2023-10-06T01:24:00.069Z",
+        "updated_at": "2023-10-06T05:46:27.956Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0078450-df39-4d58-b223-48addc83c9cd",
+        "grade": 98247,
+        "enrollment_date": "2023-10-05T19:55:09.795Z",
+        "created_at": "2023-10-05T15:13:07.387Z",
+        "updated_at": "2023-10-05T19:51:51.875Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ea14326-510b-4181-8356-80307fd8283c",
+        "grade": 49090,
+        "enrollment_date": "2023-10-05T22:12:31.508Z",
+        "created_at": "2023-10-05T08:16:03.236Z",
+        "updated_at": "2023-10-05T18:27:00.134Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2546e62c-f881-4e2a-8aaa-acda155336d2",
+        "grade": 21082,
+        "enrollment_date": "2023-10-05T16:31:04.208Z",
+        "created_at": "2023-10-06T01:27:38.760Z",
+        "updated_at": "2023-10-06T00:20:09.022Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c146eb2-0a7c-4bf7-b5ff-8c1ff902ad62",
+        "grade": 82568,
+        "enrollment_date": "2023-10-05T15:40:50.045Z",
+        "created_at": "2023-10-05T08:06:51.657Z",
+        "updated_at": "2023-10-05T20:27:32.869Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parent": [
+      {
+        "id": "eb65d844-cd45-49ce-936f-7ba3674d68de",
+        "relation": "Father",
+        "contact_number": "123-456-7890",
+        "created_at": "2023-10-06T04:57:15.593Z",
+        "updated_at": "2023-10-06T05:53:07.300Z",
+        "student_id": "2546e62c-f881-4e2a-8aaa-acda155336d2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ec4f37a-ad7f-4168-a3b9-d0bb23f8c7d0",
+        "relation": "Mother",
+        "contact_number": "987-654-3210",
+        "created_at": "2023-10-05T19:12:23.669Z",
+        "updated_at": "2023-10-05T15:13:31.877Z",
+        "student_id": "5c146eb2-0a7c-4bf7-b5ff-8c1ff902ad62",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc18a07d-ce78-49fd-aca7-baa9babcdc79",
+        "relation": "Guardian",
+        "contact_number": "555-123-4567",
+        "created_at": "2023-10-05T20:40:01.580Z",
+        "updated_at": "2023-10-05T18:39:47.976Z",
+        "student_id": "2546e62c-f881-4e2a-8aaa-acda155336d2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43ecf9d9-e6b3-475a-b9d7-51ebb42b15bf",
+        "relation": "Step-Parent",
+        "contact_number": "888-999-0000",
+        "created_at": "2023-10-05T13:32:54.289Z",
+        "updated_at": "2023-10-05T14:38:07.101Z",
+        "student_id": "2546e62c-f881-4e2a-8aaa-acda155336d2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90de4b9a-ee01-4e89-8ed8-7f22057b7f19",
+        "relation": "Grandparent",
+        "contact_number": "777-888-9999",
+        "created_at": "2023-10-05T16:15:21.024Z",
+        "updated_at": "2023-10-06T05:55:26.015Z",
+        "student_id": "d0078450-df39-4d58-b223-48addc83c9cd",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "77098645-555f-4bcd-b0ae-c2b153f43c8a",
+        "name": "Introduction to Biology",
+        "description": "Explore the fascinating world of biology",
+        "created_at": "2023-10-06T02:15:05.017Z",
+        "updated_at": "2023-10-06T04:53:50.664Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "6c55a7b9-183a-4063-b24b-c61a26c48b00"
+      },
+      {
+        "id": "a8890ba5-887d-4e25-8a6c-85c20a6ba8bf",
+        "name": "Advanced Calculus",
+        "description": "Dive into the depths of advanced calculus",
+        "created_at": "2023-10-05T17:06:32.249Z",
+        "updated_at": "2023-10-05T18:16:16.827Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "9b3f06ed-7107-4acd-b33f-b9e47c57da5f"
+      },
+      {
+        "id": "71fd7e27-7e4a-480b-9431-cdd45cda1ce9",
+        "name": "Literary Analysis",
+        "description": "Analyze classic works of literature",
+        "created_at": "2023-10-05T06:03:30.986Z",
+        "updated_at": "2023-10-06T04:37:13.134Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "4090d31e-1e13-45f2-bef9-41de2cd3d12f"
+      },
+      {
+        "id": "0e9ad90e-4e34-4b22-b527-be572072b6f2",
+        "name": "World History",
+        "description": "Uncover the mysteries of world history",
+        "created_at": "2023-10-05T10:10:27.186Z",
+        "updated_at": "2023-10-05T10:36:05.586Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "4090d31e-1e13-45f2-bef9-41de2cd3d12f"
+      },
+      {
+        "id": "7a1c6e00-ce55-4379-acb0-9000cb563bee",
+        "name": "Web Development",
+        "description": "Learn to build dynamic websites with web development",
+        "created_at": "2023-10-05T11:13:58.261Z",
+        "updated_at": "2023-10-05T09:30:39.706Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "9b3f06ed-7107-4acd-b33f-b9e47c57da5f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2f8706c8-c8dd-4d34-9ab9-d1ce3ae5c519",
+        "email": "Mose_Langworth48@roq.tech",
+        "firstName": "Kody",
+        "lastName": "Gleichner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/683.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0de8dce5-baba-44ee-a95d-a1eb535b3a92",
+        "email": "Destinee.Kshlerin12@roq.tech",
+        "firstName": "Lamont",
+        "lastName": "Kertzmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/572.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "90b3ef5c-fb67-4929-93f8-67ec3bebeee7",
+        "email": "Missouri.Gutmann47@roq.tech",
+        "firstName": "Shanelle",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1184.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0730e550-8f0b-4177-a98a-8ec7d8444e03",
+        "email": "Zion55@roq.tech",
+        "firstName": "Marge",
+        "lastName": "Ankunding",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/930.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c9499a36-d120-4950-a1c7-672f034115c6",
+        "email": "Eleonore_Walsh@roq.tech",
+        "firstName": "Tom",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11744261",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "588433aa-6939-458d-b6a6-867a58dcd743",
+        "subject": "Mathematics",
+        "hire_date": "2023-10-05T14:10:30.508Z",
+        "created_at": "2023-10-05T06:42:25.504Z",
+        "updated_at": "2023-10-05T17:26:04.954Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b900df7-538f-4b73-b5e9-ef586a48f263",
+        "subject": "Science",
+        "hire_date": "2023-10-05T18:14:04.210Z",
+        "created_at": "2023-10-06T00:47:45.852Z",
+        "updated_at": "2023-10-05T20:22:53.951Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a74ac719-56a1-49e5-95fa-4ac5f792a9ab",
+        "subject": "English",
+        "hire_date": "2023-10-06T02:15:58.743Z",
+        "created_at": "2023-10-05T09:02:49.657Z",
+        "updated_at": "2023-10-05T12:30:28.384Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0bef99f9-2900-4d23-84f0-f3889ebb08ac",
+        "subject": "History",
+        "hire_date": "2023-10-06T04:36:18.088Z",
+        "created_at": "2023-10-05T22:30:38.281Z",
+        "updated_at": "2023-10-05T15:58:16.197Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d95d91bf-d6d6-4af4-8157-88824a5b2898",
+        "subject": "Art",
+        "hire_date": "2023-10-05T12:10:52.721Z",
+        "created_at": "2023-10-05T22:52:12.244Z",
+        "updated_at": "2023-10-05T11:37:41.544Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "8582252e-28eb-4cd4-8bc1-d9dc9ac3ef1d",
+        "grade": 8194,
+        "enrollment_date": "2023-10-05T06:35:29.593Z",
+        "created_at": "2023-10-05T11:45:54.284Z",
+        "updated_at": "2023-10-05T08:18:09.786Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c3ae250-10cd-494a-9d9a-3ef92bbdbb05",
+        "grade": 34485,
+        "enrollment_date": "2023-10-05T19:05:23.588Z",
+        "created_at": "2023-10-05T18:45:37.674Z",
+        "updated_at": "2023-10-05T13:33:50.802Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1bf82b0-ee63-4e32-b5a7-2542c01cae16",
+        "grade": 70880,
+        "enrollment_date": "2023-10-05T20:27:03.565Z",
+        "created_at": "2023-10-05T23:14:02.315Z",
+        "updated_at": "2023-10-05T07:31:53.604Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b641d6d-08da-46c6-ba91-0f8123542ed5",
+        "grade": 29325,
+        "enrollment_date": "2023-10-05T08:11:03.653Z",
+        "created_at": "2023-10-05T09:47:45.726Z",
+        "updated_at": "2023-10-05T15:09:49.994Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3acfb5af-6750-40e0-95e8-1faad004e8b9",
+        "grade": 83354,
+        "enrollment_date": "2023-10-05T19:28:56.352Z",
+        "created_at": "2023-10-05T06:49:20.957Z",
+        "updated_at": "2023-10-05T07:53:21.654Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parent": [
+      {
+        "id": "a7e6c6a3-b4f4-4f4d-ad31-65097a53efcb",
+        "relation": "Mother",
+        "contact_number": "1234567890",
+        "created_at": "2023-10-05T21:03:36.675Z",
+        "updated_at": "2023-10-05T10:01:28.443Z",
+        "student_id": "8c3ae250-10cd-494a-9d9a-3ef92bbdbb05",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c3c80c2-4dbc-48e8-8657-8da49455edec",
+        "relation": "Father",
+        "contact_number": "9876543210",
+        "created_at": "2023-10-05T19:39:24.518Z",
+        "updated_at": "2023-10-05T20:28:43.672Z",
+        "student_id": "3acfb5af-6750-40e0-95e8-1faad004e8b9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62579b34-6952-4572-be32-e6c5ecb8879a",
+        "relation": "Guardian",
+        "contact_number": "5555555555",
+        "created_at": "2023-10-05T10:39:23.850Z",
+        "updated_at": "2023-10-05T17:01:17.039Z",
+        "student_id": "8582252e-28eb-4cd4-8bc1-d9dc9ac3ef1d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61bbf319-0972-4f9e-8b11-fd3c781d0c60",
+        "relation": "Step-parent",
+        "contact_number": "1111111111",
+        "created_at": "2023-10-05T11:40:02.146Z",
+        "updated_at": "2023-10-05T13:00:26.272Z",
+        "student_id": "8c3ae250-10cd-494a-9d9a-3ef92bbdbb05",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bcbf6d5c-e29f-4f99-a5e7-eaa0910c8bf6",
+        "relation": "Grandparent",
+        "contact_number": "9999999999",
+        "created_at": "2023-10-05T23:35:50.402Z",
+        "updated_at": "2023-10-05T08:14:49.330Z",
+        "student_id": "8582252e-28eb-4cd4-8bc1-d9dc9ac3ef1d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "067ff7f4-9c93-48d3-9ea4-a73e54f18f9b",
+        "name": "Introduction to Biology",
+        "description": "Explore the fascinating world of living organisms",
+        "created_at": "2023-10-05T09:49:40.243Z",
+        "updated_at": "2023-10-05T17:48:36.574Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "5b900df7-538f-4b73-b5e9-ef586a48f263"
+      },
+      {
+        "id": "7c5707d6-a554-4827-8680-4c2cee01f606",
+        "name": "Advanced Calculus",
+        "description": "Dive deep into the realm of advanced mathematical concepts",
+        "created_at": "2023-10-05T09:28:47.746Z",
+        "updated_at": "2023-10-05T14:04:55.178Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "588433aa-6939-458d-b6a6-867a58dcd743"
+      },
+      {
+        "id": "cb56859d-007b-4d8b-8338-01cd6024279e",
+        "name": "Literary Analysis",
+        "description": "Analyze and interpret various literary works",
+        "created_at": "2023-10-05T20:11:41.368Z",
+        "updated_at": "2023-10-05T14:10:22.455Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "5b900df7-538f-4b73-b5e9-ef586a48f263"
+      },
+      {
+        "id": "17f7c681-310b-406d-9937-567012b1452e",
+        "name": "World History",
+        "description": "Discover the events and cultures that shaped our world",
+        "created_at": "2023-10-06T04:18:40.316Z",
+        "updated_at": "2023-10-05T18:27:17.451Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "588433aa-6939-458d-b6a6-867a58dcd743"
+      },
+      {
+        "id": "628ff392-1da3-4b0b-9656-056dd26c8c9f",
+        "name": "Digital Photography",
+        "description": "Master the art of capturing stunning photographs",
+        "created_at": "2023-10-06T01:50:53.206Z",
+        "updated_at": "2023-10-05T19:27:37.296Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "5b900df7-538f-4b73-b5e9-ef586a48f263"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5ebd5332-18c6-4a1a-9e06-e9c9289ea9ea",
+        "email": "Pauline.Harvey@roq.tech",
+        "firstName": "Hazel",
+        "lastName": "Wuckert-Lesch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/846.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f731b118-6aa3-4f2f-8499-a63c94b576fd",
+        "email": "Isac.Cremin@roq.tech",
+        "firstName": "Caroline",
+        "lastName": "Hickle-Heathcote",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/655.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5d4da6b2-1a2c-4a00-8290-f257d1f89771",
+        "email": "Magali_Collier52@roq.tech",
+        "firstName": "Ali",
+        "lastName": "Bahringer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19980574",
+        "tenantId": null
+      },
+      {
+        "reference": "00e925ba-08e2-409e-94d2-2bbbeefd8c3e",
+        "email": "Victoria_Runte68@roq.tech",
+        "firstName": "Keon",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93232696",
+        "tenantId": null
+      },
+      {
+        "reference": "f1e09c3d-c643-471a-9b43-d3edb28754f6",
+        "email": "Jarvis_Borer@roq.tech",
+        "firstName": "Annabell",
+        "lastName": "Thompson-Hills",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/321.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "63172ade-f139-4829-aa0d-a81f403f0931",
+        "subject": "Mathematics",
+        "hire_date": "2023-10-05T10:37:33.102Z",
+        "created_at": "2023-10-05T13:05:16.651Z",
+        "updated_at": "2023-10-06T01:23:37.458Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e247bfb7-6c40-48bf-83a2-24aa0199c988",
+        "subject": "Science",
+        "hire_date": "2023-10-05T17:07:47.451Z",
+        "created_at": "2023-10-05T18:59:07.891Z",
+        "updated_at": "2023-10-05T16:23:33.523Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2aef9040-3f47-46fa-978e-9faf8ef55b5d",
+        "subject": "English",
+        "hire_date": "2023-10-05T15:16:28.890Z",
+        "created_at": "2023-10-05T10:59:32.090Z",
+        "updated_at": "2023-10-05T22:08:11.001Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91aea7be-99b7-41d7-9569-a9331e8781b0",
+        "subject": "History",
+        "hire_date": "2023-10-06T05:16:04.090Z",
+        "created_at": "2023-10-05T14:39:12.066Z",
+        "updated_at": "2023-10-05T10:29:51.547Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "adea158a-012f-4472-9355-50f4118cd1a1",
+        "subject": "Computer Science",
+        "hire_date": "2023-10-05T13:14:05.449Z",
+        "created_at": "2023-10-05T22:49:57.659Z",
+        "updated_at": "2023-10-05T23:02:44.363Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "bbaebef6-a9b1-462d-b9a5-72c3802de055",
+        "grade": 97515,
+        "enrollment_date": "2023-10-05T16:32:23.248Z",
+        "created_at": "2023-10-06T02:27:34.484Z",
+        "updated_at": "2023-10-06T02:21:02.850Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa52f3b5-2dec-4a36-b184-11e33e8173b2",
+        "grade": 58552,
+        "enrollment_date": "2023-10-05T23:59:41.022Z",
+        "created_at": "2023-10-05T16:08:18.588Z",
+        "updated_at": "2023-10-05T16:50:24.949Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3059fe9c-78ab-4a9a-b6ca-463101bb4cfc",
+        "grade": 69676,
+        "enrollment_date": "2023-10-05T17:54:28.041Z",
+        "created_at": "2023-10-05T15:54:32.331Z",
+        "updated_at": "2023-10-06T05:21:50.933Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82813aba-000a-46bd-a6da-82ab4e036ee1",
+        "grade": 13028,
+        "enrollment_date": "2023-10-05T14:02:35.284Z",
+        "created_at": "2023-10-05T09:54:11.532Z",
+        "updated_at": "2023-10-05T08:24:38.342Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69599db2-a231-44b4-a40f-fc869f69c2b4",
+        "grade": 80175,
+        "enrollment_date": "2023-10-06T01:05:16.467Z",
+        "created_at": "2023-10-05T14:32:20.326Z",
+        "updated_at": "2023-10-05T14:42:23.142Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parent": [
+      {
+        "id": "720598da-3923-4a7d-b19b-710652111be3",
+        "relation": "Father",
+        "contact_number": "1234567890",
+        "created_at": "2023-10-05T20:50:45.211Z",
+        "updated_at": "2023-10-05T17:33:56.819Z",
+        "student_id": "bbaebef6-a9b1-462d-b9a5-72c3802de055",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c53b7482-d0d8-407d-9f1f-248365524e0a",
+        "relation": "Mother",
+        "contact_number": "9876543210",
+        "created_at": "2023-10-05T06:50:27.202Z",
+        "updated_at": "2023-10-05T20:49:30.415Z",
+        "student_id": "3059fe9c-78ab-4a9a-b6ca-463101bb4cfc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba92223c-5921-47a3-a3d8-65cbf37d3a91",
+        "relation": "Guardian",
+        "contact_number": "5555555555",
+        "created_at": "2023-10-06T04:40:58.817Z",
+        "updated_at": "2023-10-05T22:23:23.147Z",
+        "student_id": "fa52f3b5-2dec-4a36-b184-11e33e8173b2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf162ea5-86d4-4f3a-bf60-5506022ae65d",
+        "relation": "Grandparent",
+        "contact_number": "9999999999",
+        "created_at": "2023-10-05T17:30:33.541Z",
+        "updated_at": "2023-10-05T11:55:30.659Z",
+        "student_id": "82813aba-000a-46bd-a6da-82ab4e036ee1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0edd201-2608-48aa-a838-c01406ed9d1c",
+        "relation": "Step-parent",
+        "contact_number": "1111111111",
+        "created_at": "2023-10-06T00:33:00.109Z",
+        "updated_at": "2023-10-05T16:36:47.415Z",
+        "student_id": "bbaebef6-a9b1-462d-b9a5-72c3802de055",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "2e9fe259-81b9-4fee-8b44-892c97b273b5",
+        "name": "Algebra I",
+        "description": "Introduction to algebraic concepts and equations",
+        "created_at": "2023-10-05T11:46:31.636Z",
+        "updated_at": "2023-10-06T04:09:28.834Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "2aef9040-3f47-46fa-978e-9faf8ef55b5d"
+      },
+      {
+        "id": "a515444f-6bf3-431f-8623-388d7e7d5b33",
+        "name": "Biology",
+        "description": "Study of living organisms and their interactions",
+        "created_at": "2023-10-06T04:47:48.575Z",
+        "updated_at": "2023-10-06T05:45:08.533Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "e247bfb7-6c40-48bf-83a2-24aa0199c988"
+      },
+      {
+        "id": "3f04a6bb-339b-4e03-b3b5-cb9fadf4c9e9",
+        "name": "English Literature",
+        "description": "Exploration of classic literary works",
+        "created_at": "2023-10-05T06:23:34.865Z",
+        "updated_at": "2023-10-05T10:35:49.190Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "91aea7be-99b7-41d7-9569-a9331e8781b0"
+      },
+      {
+        "id": "d04a6dd0-4e3a-4cb2-8ac2-bad86deafa00",
+        "name": "World History",
+        "description": "Examination of major events in world history",
+        "created_at": "2023-10-05T15:17:05.613Z",
+        "updated_at": "2023-10-05T16:38:15.055Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "91aea7be-99b7-41d7-9569-a9331e8781b0"
+      },
+      {
+        "id": "94abaf03-edf5-4651-9ba5-ee3ec298955a",
+        "name": "Web Development",
+        "description": "Development of web applications using modern technologies",
+        "created_at": "2023-10-05T13:38:12.124Z",
+        "updated_at": "2023-10-05T15:25:28.153Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "2aef9040-3f47-46fa-978e-9faf8ef55b5d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f3608a03-2ecc-488f-99bf-a586d349d033",
+        "email": "Bart_Ruecker@roq.tech",
+        "firstName": "Myrna",
+        "lastName": "Hagenes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/594.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b8e7e469-9a21-4ef8-a9f8-af0ba1d01a7d",
+        "email": "Valentina33@roq.tech",
+        "firstName": "Ophelia",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/361.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f741940b-addb-4661-bd4f-03a18b11bbd1",
+        "email": "Cedrick.Mante@roq.tech",
+        "firstName": "Korey",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66899255",
+        "tenantId": null
+      },
+      {
+        "reference": "e5678e86-ecb2-42b6-898b-a282c9f5e2f0",
+        "email": "Quinton_Kuvalis82@roq.tech",
+        "firstName": "Frederick",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/336.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "52f48cfb-9e55-427c-9d9f-ec36dd138944",
+        "email": "Franz.Rutherford31@roq.tech",
+        "firstName": "Roxane",
+        "lastName": "Hane",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74691572",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "6723cc63-12be-484d-a75a-02998639f5c4",
+        "subject": "Mathematics",
+        "hire_date": "2023-10-06T01:31:24.841Z",
+        "created_at": "2023-10-05T12:50:30.249Z",
+        "updated_at": "2023-10-05T08:57:59.532Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e31c0bf-6f46-457e-b54b-9916b1f09be8",
+        "subject": "English",
+        "hire_date": "2023-10-06T01:31:46.402Z",
+        "created_at": "2023-10-06T04:32:42.569Z",
+        "updated_at": "2023-10-05T13:39:53.951Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ffd1d2e3-4bee-4b3c-a416-7f30d335c9ee",
+        "subject": "Science",
+        "hire_date": "2023-10-06T00:08:55.963Z",
+        "created_at": "2023-10-05T23:14:24.640Z",
+        "updated_at": "2023-10-05T07:05:50.071Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb317072-bf28-4784-9b95-2274e8d1aaff",
+        "subject": "History",
+        "hire_date": "2023-10-05T11:55:33.181Z",
+        "created_at": "2023-10-06T03:04:11.016Z",
+        "updated_at": "2023-10-06T01:06:07.183Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87473e63-4acc-496a-adf1-94623bf50172",
+        "subject": "Art",
+        "hire_date": "2023-10-05T19:08:17.117Z",
+        "created_at": "2023-10-06T02:32:12.400Z",
+        "updated_at": "2023-10-05T11:49:09.041Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "e13c5b0e-0106-4fa8-a7cf-4812ca41a0b0",
+        "grade": 6517,
+        "enrollment_date": "2023-10-06T04:45:55.364Z",
+        "created_at": "2023-10-05T20:39:16.729Z",
+        "updated_at": "2023-10-05T21:40:18.256Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3cf7b29-e379-4fbe-aeee-2dda8c579c8a",
+        "grade": 33097,
+        "enrollment_date": "2023-10-06T01:44:55.629Z",
+        "created_at": "2023-10-06T01:13:10.605Z",
+        "updated_at": "2023-10-05T16:59:15.913Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "350c25f2-c1c9-4d5c-a4bb-02b75f2915e5",
+        "grade": 543,
+        "enrollment_date": "2023-10-05T14:06:03.488Z",
+        "created_at": "2023-10-06T00:59:11.662Z",
+        "updated_at": "2023-10-06T04:42:02.158Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "520947ba-1346-455f-a206-96eefc2d6f03",
+        "grade": 26307,
+        "enrollment_date": "2023-10-05T07:12:53.459Z",
+        "created_at": "2023-10-06T03:21:31.266Z",
+        "updated_at": "2023-10-06T01:29:26.794Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60d353db-5563-46e4-9fbe-ba393ce6227e",
+        "grade": 49125,
+        "enrollment_date": "2023-10-05T15:37:20.648Z",
+        "created_at": "2023-10-05T09:46:44.575Z",
+        "updated_at": "2023-10-05T23:44:35.301Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parent": [
+      {
+        "id": "0eb6301a-1c5c-404c-8876-98bfa0f33d88",
+        "relation": "Mother",
+        "contact_number": "555-1234",
+        "created_at": "2023-10-06T03:03:11.024Z",
+        "updated_at": "2023-10-05T10:06:20.672Z",
+        "student_id": "60d353db-5563-46e4-9fbe-ba393ce6227e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b1f0431-8c39-4006-a82b-7e0a45e97abe",
+        "relation": "Father",
+        "contact_number": "555-5678",
+        "created_at": "2023-10-05T15:34:04.915Z",
+        "updated_at": "2023-10-05T15:24:06.032Z",
+        "student_id": "60d353db-5563-46e4-9fbe-ba393ce6227e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "554d10eb-dd08-4245-b23d-0afd174bc64e",
+        "relation": "Guardian",
+        "contact_number": "555-9012",
+        "created_at": "2023-10-05T12:29:35.779Z",
+        "updated_at": "2023-10-05T15:56:55.219Z",
+        "student_id": "520947ba-1346-455f-a206-96eefc2d6f03",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31f4ecc1-4ba5-4085-9025-64d92a7935b8",
+        "relation": "Grandparent",
+        "contact_number": "555-3456",
+        "created_at": "2023-10-05T07:17:12.614Z",
+        "updated_at": "2023-10-05T09:20:52.688Z",
+        "student_id": "e13c5b0e-0106-4fa8-a7cf-4812ca41a0b0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a4a01e1-01dd-4508-8767-06ee35cb1361",
+        "relation": "Step-parent",
+        "contact_number": "555-7890",
+        "created_at": "2023-10-06T03:34:37.400Z",
+        "updated_at": "2023-10-05T17:05:35.729Z",
+        "student_id": "520947ba-1346-455f-a206-96eefc2d6f03",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "1d1ba6c7-a324-4f44-ac87-fe5dce57a8aa",
+        "name": "Algebra I",
+        "description": "Introduction to algebraic concepts",
+        "created_at": "2023-10-05T09:26:15.486Z",
+        "updated_at": "2023-10-05T21:14:29.975Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "6723cc63-12be-484d-a75a-02998639f5c4"
+      },
+      {
+        "id": "dc79386b-4519-4637-aaee-893242ffdb63",
+        "name": "English Literature",
+        "description": "Exploring classic works of literature",
+        "created_at": "2023-10-06T03:52:38.193Z",
+        "updated_at": "2023-10-05T15:47:05.041Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "0e31c0bf-6f46-457e-b54b-9916b1f09be8"
+      },
+      {
+        "id": "6ede8baf-a4be-414d-8fa6-e24b6fc257f8",
+        "name": "Biology",
+        "description": "Study of living organisms and their environments",
+        "created_at": "2023-10-05T19:15:57.107Z",
+        "updated_at": "2023-10-05T22:31:08.500Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "87473e63-4acc-496a-adf1-94623bf50172"
+      },
+      {
+        "id": "a85e7504-9e63-4b19-a265-90c5f2661d87",
+        "name": "World History",
+        "description": "Examining major events and civilizations throughout history",
+        "created_at": "2023-10-06T01:55:27.375Z",
+        "updated_at": "2023-10-05T10:40:04.188Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "6723cc63-12be-484d-a75a-02998639f5c4"
+      },
+      {
+        "id": "6c3bab21-13ef-48e1-8ed6-43851cf3a605",
+        "name": "Drawing",
+        "description": "Developing artistic skills and techniques",
+        "created_at": "2023-10-05T13:28:27.702Z",
+        "updated_at": "2023-10-05T18:24:09.533Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "bb317072-bf28-4784-9b95-2274e8d1aaff"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "401d01c1-9d8d-4dfc-aaae-7baaf9ce83f1",
+        "email": "Darrick65@roq.tech",
+        "firstName": "Aglae",
+        "lastName": "Russel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/37.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d5c16d6d-b0b2-45ce-8f9c-8050b4749775",
+        "email": "Arely75@roq.tech",
+        "firstName": "Camila",
+        "lastName": "Lebsack-Torphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8977943",
+        "tenantId": null
+      },
+      {
+        "reference": "1e4da172-df5a-4432-a332-1075c5ea56a1",
+        "email": "Arnaldo.Towne16@roq.tech",
+        "firstName": "Jeanette",
+        "lastName": "Jacobson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85894835",
+        "tenantId": null
+      },
+      {
+        "reference": "3f81a96e-1f5d-4369-a9a9-0e15cb66e281",
+        "email": "Philip64@roq.tech",
+        "firstName": "Amiya",
+        "lastName": "Lueilwitz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84617919",
+        "tenantId": null
+      },
+      {
+        "reference": "9f27767e-2a42-4cfb-9cfa-81d15c917a45",
+        "email": "Noel_Rau87@roq.tech",
+        "firstName": "Renee",
+        "lastName": "Mitchell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54863373",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "704a8970-17c8-446c-8019-43cff24de42a",
+        "subject": "Mathematics",
+        "hire_date": "2023-10-05T09:25:05.091Z",
+        "created_at": "2023-10-05T11:45:24.675Z",
+        "updated_at": "2023-10-05T19:49:15.795Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7444a07-47de-4a30-afdb-244466a8d651",
+        "subject": "English Literature",
+        "hire_date": "2023-10-05T23:01:17.505Z",
+        "created_at": "2023-10-05T20:38:33.508Z",
+        "updated_at": "2023-10-06T05:56:34.049Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ad33e24-acbe-43ed-beb6-669634cc8b59",
+        "subject": "Science",
+        "hire_date": "2023-10-05T07:24:57.439Z",
+        "created_at": "2023-10-05T19:52:02.269Z",
+        "updated_at": "2023-10-05T22:31:02.841Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4d1b6f6-50c2-4595-8407-e801f37b200b",
+        "subject": "History",
+        "hire_date": "2023-10-05T07:46:46.539Z",
+        "created_at": "2023-10-05T15:23:36.269Z",
+        "updated_at": "2023-10-05T22:22:22.436Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb6ef2ea-0e22-496f-ab0f-1149417990ae",
+        "subject": "Computer Science",
+        "hire_date": "2023-10-05T23:10:37.668Z",
+        "created_at": "2023-10-05T19:04:41.881Z",
+        "updated_at": "2023-10-05T06:23:34.655Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "b3b27447-aa9f-4a94-9ae5-82bca3d67dba",
+        "grade": 42974,
+        "enrollment_date": "2023-10-05T17:01:08.545Z",
+        "created_at": "2023-10-05T07:58:57.811Z",
+        "updated_at": "2023-10-05T09:10:44.074Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1830cf65-fd89-4a53-9af0-af39a52b5056",
+        "grade": 58011,
+        "enrollment_date": "2023-10-06T00:01:09.681Z",
+        "created_at": "2023-10-06T01:03:10.597Z",
+        "updated_at": "2023-10-05T21:21:20.921Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d0c641d-5a3f-4434-af02-e278438add85",
+        "grade": 83330,
+        "enrollment_date": "2023-10-06T04:22:41.399Z",
+        "created_at": "2023-10-05T10:45:38.453Z",
+        "updated_at": "2023-10-05T22:48:37.012Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0070a61-4781-488d-a589-180eaa7b4478",
+        "grade": 10148,
+        "enrollment_date": "2023-10-06T00:29:22.641Z",
+        "created_at": "2023-10-06T00:39:44.471Z",
+        "updated_at": "2023-10-05T23:08:58.554Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43bde1c1-ace8-4f61-961f-a2a08f5bdb50",
+        "grade": 58768,
+        "enrollment_date": "2023-10-06T05:37:12.963Z",
+        "created_at": "2023-10-05T20:57:41.989Z",
+        "updated_at": "2023-10-05T15:25:52.946Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parent": [
+      {
+        "id": "6e56eb83-09cb-4835-9156-248ea7bfa708",
+        "relation": "Mother",
+        "contact_number": "123-456-7890",
+        "created_at": "2023-10-05T11:43:58.455Z",
+        "updated_at": "2023-10-05T14:47:38.398Z",
+        "student_id": "b3b27447-aa9f-4a94-9ae5-82bca3d67dba",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a34b7e8-c7fe-47f8-99aa-8641ea1f26c3",
+        "relation": "Father",
+        "contact_number": "987-654-3210",
+        "created_at": "2023-10-05T21:19:21.424Z",
+        "updated_at": "2023-10-05T20:57:32.464Z",
+        "student_id": "b3b27447-aa9f-4a94-9ae5-82bca3d67dba",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "015c49d7-cf47-49dd-a18d-ed1147373842",
+        "relation": "Guardian",
+        "contact_number": "555-123-4567",
+        "created_at": "2023-10-05T13:29:27.989Z",
+        "updated_at": "2023-10-05T07:41:09.491Z",
+        "student_id": "43bde1c1-ace8-4f61-961f-a2a08f5bdb50",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea09acea-dc52-4c3c-8a4e-700e529893ad",
+        "relation": "Grandparent",
+        "contact_number": "888-999-0000",
+        "created_at": "2023-10-06T02:36:41.465Z",
+        "updated_at": "2023-10-05T19:40:18.122Z",
+        "student_id": "c0070a61-4781-488d-a589-180eaa7b4478",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9c0b6b4-8d55-4d30-8a81-0f6a3b417ef5",
+        "relation": "Step-parent",
+        "contact_number": "777-222-3333",
+        "created_at": "2023-10-05T22:46:08.178Z",
+        "updated_at": "2023-10-05T08:15:05.924Z",
+        "student_id": "b3b27447-aa9f-4a94-9ae5-82bca3d67dba",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "369478b2-6a94-48fd-9e51-db8197216e0e",
+        "name": "Algebra I",
+        "description": "A foundational course in algebraic concepts",
+        "created_at": "2023-10-05T10:02:16.631Z",
+        "updated_at": "2023-10-05T10:26:24.814Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "bb6ef2ea-0e22-496f-ab0f-1149417990ae"
+      },
+      {
+        "id": "269d34fc-edb5-4ed0-88c2-ad486df8ecf0",
+        "name": "English Composition",
+        "description": "Developing effective writing skills",
+        "created_at": "2023-10-06T03:05:50.616Z",
+        "updated_at": "2023-10-05T08:24:19.742Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "704a8970-17c8-446c-8019-43cff24de42a"
+      },
+      {
+        "id": "7867a310-f4f7-4081-b22e-136fb7a6852e",
+        "name": "Biology",
+        "description": "Exploring the wonders of the natural world",
+        "created_at": "2023-10-05T07:11:12.175Z",
+        "updated_at": "2023-10-05T09:22:47.929Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "0ad33e24-acbe-43ed-beb6-669634cc8b59"
+      },
+      {
+        "id": "ab8831dd-344a-40fe-8972-2abac971ff33",
+        "name": "World History",
+        "description": "Understanding global historical events",
+        "created_at": "2023-10-05T13:36:34.505Z",
+        "updated_at": "2023-10-06T04:34:17.894Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "d7444a07-47de-4a30-afdb-244466a8d651"
+      },
+      {
+        "id": "99accf6f-5bf0-42e6-a541-2dfdef706103",
+        "name": "Web Development",
+        "description": "Building dynamic websites using HTML, CSS, and JavaScript",
+        "created_at": "2023-10-05T15:00:15.213Z",
+        "updated_at": "2023-10-05T09:08:14.905Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "704a8970-17c8-446c-8019-43cff24de42a"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b8355a6f-beeb-41b0-90ec-09f70eee9f23",
+        "email": "Rebekah_Von0@roq.tech",
+        "firstName": "Alana",
+        "lastName": "Pouros-Trantow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1062.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aa8459c7-2861-4a95-8fb3-db121b272388",
+        "email": "Tremayne72@roq.tech",
+        "firstName": "Allan",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16308562",
+        "tenantId": null
+      },
+      {
+        "reference": "c5a6ec90-74fa-41a4-b7b9-4cfa7484ca94",
+        "email": "Maryse.Rice@roq.tech",
+        "firstName": "Orland",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/752.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "465abb30-c855-4009-8abc-c558e2e64a9b",
+        "email": "Shyann_Marks58@roq.tech",
+        "firstName": "Hailee",
+        "lastName": "Cassin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37891603",
+        "tenantId": null
+      },
+      {
+        "reference": "ce4662b7-9d27-43d8-a46e-7bbe58213a20",
+        "email": "Joanie_Mitchell41@roq.tech",
+        "firstName": "Glen",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48121007",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "dd2473fe-a22a-4e89-a96f-479eb058e88f",
+        "subject": "Mathematics",
+        "hire_date": "2023-10-05T22:33:05.815Z",
+        "created_at": "2023-10-06T00:21:14.454Z",
+        "updated_at": "2023-10-05T21:29:32.829Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70eed364-dbaa-4c19-8595-e33f523c54cc",
+        "subject": "Science",
+        "hire_date": "2023-10-05T08:23:27.665Z",
+        "created_at": "2023-10-05T16:59:47.586Z",
+        "updated_at": "2023-10-05T14:37:58.713Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad783289-d996-4606-a3b0-066700ac9451",
+        "subject": "English",
+        "hire_date": "2023-10-05T10:14:22.282Z",
+        "created_at": "2023-10-06T00:24:50.061Z",
+        "updated_at": "2023-10-06T04:29:32.805Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9df0475c-6b4b-42f9-b21a-8a4dd9dd3da0",
+        "subject": "History",
+        "hire_date": "2023-10-05T14:29:32.179Z",
+        "created_at": "2023-10-05T13:06:14.663Z",
+        "updated_at": "2023-10-05T22:09:38.349Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b8d4036-fcda-4ee1-8d2c-c58a7d474187",
+        "subject": "Art",
+        "hire_date": "2023-10-05T16:18:23.051Z",
+        "created_at": "2023-10-05T21:05:16.110Z",
+        "updated_at": "2023-10-05T15:23:55.028Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "633dc888-0724-4450-aed8-b9089d61ae11",
+        "grade": 60101,
+        "enrollment_date": "2023-10-05T07:07:29.002Z",
+        "created_at": "2023-10-05T13:35:40.179Z",
+        "updated_at": "2023-10-05T12:30:51.254Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d183f5f7-c4f8-4c67-b066-d21f76fa550f",
+        "grade": 15705,
+        "enrollment_date": "2023-10-05T14:52:58.086Z",
+        "created_at": "2023-10-05T16:42:46.543Z",
+        "updated_at": "2023-10-06T03:41:31.059Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76a97549-71ae-49c0-8763-b1f79f459376",
+        "grade": 78454,
+        "enrollment_date": "2023-10-05T18:52:28.704Z",
+        "created_at": "2023-10-05T17:54:32.960Z",
+        "updated_at": "2023-10-05T18:17:06.772Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3346febf-2a98-4567-8bb8-18f3259c8425",
+        "grade": 9901,
+        "enrollment_date": "2023-10-05T18:14:26.446Z",
+        "created_at": "2023-10-06T01:46:46.811Z",
+        "updated_at": "2023-10-05T22:06:15.780Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96ee993c-eac7-4f01-b078-e49e7f6e7cc7",
+        "grade": 42597,
+        "enrollment_date": "2023-10-06T02:46:51.858Z",
+        "created_at": "2023-10-05T11:04:22.508Z",
+        "updated_at": "2023-10-06T00:15:55.128Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parent": [
+      {
+        "id": "e9502aca-9d74-488f-8814-c075a37e9b6b",
+        "relation": "Mother",
+        "contact_number": "123-456-7890",
+        "created_at": "2023-10-06T00:13:52.866Z",
+        "updated_at": "2023-10-05T07:42:54.545Z",
+        "student_id": "76a97549-71ae-49c0-8763-b1f79f459376",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "563ff656-6782-42a5-829f-4d257cc57fe1",
+        "relation": "Father",
+        "contact_number": "987-654-3210",
+        "created_at": "2023-10-05T11:26:20.731Z",
+        "updated_at": "2023-10-05T18:19:36.892Z",
+        "student_id": "d183f5f7-c4f8-4c67-b066-d21f76fa550f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45311431-00d1-4f69-8ac7-cd60fc2dfdab",
+        "relation": "Guardian",
+        "contact_number": "555-123-4567",
+        "created_at": "2023-10-06T03:18:06.656Z",
+        "updated_at": "2023-10-05T13:58:22.505Z",
+        "student_id": "3346febf-2a98-4567-8bb8-18f3259c8425",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16d860ea-0543-49fd-9dbb-e240f27bd7b4",
+        "relation": "Grandparent",
+        "contact_number": "888-999-0000",
+        "created_at": "2023-10-05T13:32:44.220Z",
+        "updated_at": "2023-10-05T18:18:22.736Z",
+        "student_id": "3346febf-2a98-4567-8bb8-18f3259c8425",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ae4845f-510d-4aac-884b-d3f2d74ddf61",
+        "relation": "Step-parent",
+        "contact_number": "444-555-6666",
+        "created_at": "2023-10-05T22:47:43.441Z",
+        "updated_at": "2023-10-05T19:12:02.884Z",
+        "student_id": "96ee993c-eac7-4f01-b078-e49e7f6e7cc7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "b9be9545-4979-4429-81ef-8f1579f2d024",
+        "name": "Algebra I",
+        "description": "Introduction to algebraic concepts and equations",
+        "created_at": "2023-10-05T10:25:49.818Z",
+        "updated_at": "2023-10-05T15:30:39.239Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "dd2473fe-a22a-4e89-a96f-479eb058e88f"
+      },
+      {
+        "id": "61915900-55fb-4db6-9d42-4813d57b7500",
+        "name": "Biology",
+        "description": "Study of living organisms and their interactions",
+        "created_at": "2023-10-06T00:34:57.533Z",
+        "updated_at": "2023-10-05T14:45:23.587Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "70eed364-dbaa-4c19-8595-e33f523c54cc"
+      },
+      {
+        "id": "7ed7cc07-c818-4641-ab8c-e10225c5f9ee",
+        "name": "English Literature",
+        "description": "Exploration of literary works and analysis",
+        "created_at": "2023-10-05T21:26:11.424Z",
+        "updated_at": "2023-10-05T15:23:30.057Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "9df0475c-6b4b-42f9-b21a-8a4dd9dd3da0"
+      },
+      {
+        "id": "20679a21-1847-4350-af83-ade2b2030ba2",
+        "name": "World History",
+        "description": "Survey of global historical events and civilizations",
+        "created_at": "2023-10-05T16:07:33.828Z",
+        "updated_at": "2023-10-06T02:17:12.240Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "1b8d4036-fcda-4ee1-8d2c-c58a7d474187"
+      },
+      {
+        "id": "9f92a1af-cda5-4c18-bde5-fdc38b407a1d",
+        "name": "Drawing",
+        "description": "Development of artistic skills and techniques",
+        "created_at": "2023-10-05T22:21:27.808Z",
+        "updated_at": "2023-10-05T23:09:56.817Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "1b8d4036-fcda-4ee1-8d2c-c58a7d474187"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "56ed3b33-1211-45ab-b4fc-ba0ebb3180c6",
+        "email": "Myles_Goodwin@roq.tech",
+        "firstName": "Hertha",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58984220",
+        "tenantId": null
+      },
+      {
+        "reference": "7920bc26-f585-49a0-b26f-518107b41947",
+        "email": "Trent.Murphy27@roq.tech",
+        "firstName": "Hertha",
+        "lastName": "Gutmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33912997",
+        "tenantId": null
+      },
+      {
+        "reference": "95106f49-83a2-4c98-9cf0-c943cad10be1",
+        "email": "Jamaal_Howe-Marks@roq.tech",
+        "firstName": "Arielle",
+        "lastName": "Orn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21033183",
+        "tenantId": null
+      },
+      {
+        "reference": "a87bd014-26fc-4715-a233-a1a3b5d87aa1",
+        "email": "Neva42@roq.tech",
+        "firstName": "Nia",
+        "lastName": "Purdy-Hills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21970069",
+        "tenantId": null
+      },
+      {
+        "reference": "386c4f36-b78a-4b77-b7eb-20f8530d5316",
+        "email": "Anika52@roq.tech",
+        "firstName": "Emmalee",
+        "lastName": "Okuneva",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/382.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "492fe585-004b-41dd-a4c5-61dd4e79fd83",
+        "subject": "Mathematics",
+        "hire_date": "2023-10-05T08:13:21.084Z",
+        "created_at": "2023-10-05T23:20:21.966Z",
+        "updated_at": "2023-10-05T21:05:01.617Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "215aaaa8-9c16-4dc3-af16-94df8fa3b76e",
+        "subject": "Science",
+        "hire_date": "2023-10-05T11:17:38.798Z",
+        "created_at": "2023-10-05T07:29:33.963Z",
+        "updated_at": "2023-10-05T11:48:23.956Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20ac4a31-f57f-4f9d-a2ff-cff4bf5f4e6b",
+        "subject": "English",
+        "hire_date": "2023-10-05T14:34:01.977Z",
+        "created_at": "2023-10-05T19:23:00.740Z",
+        "updated_at": "2023-10-05T18:13:04.763Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b69cbb5-b443-471c-8282-606dcf4949ca",
+        "subject": "History",
+        "hire_date": "2023-10-05T23:37:00.817Z",
+        "created_at": "2023-10-05T15:09:18.803Z",
+        "updated_at": "2023-10-05T16:20:24.603Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3b6d2af-21aa-4db5-aecc-4391b8ca3816",
+        "subject": "Computer Science",
+        "hire_date": "2023-10-06T01:04:08.650Z",
+        "created_at": "2023-10-05T09:07:46.484Z",
+        "updated_at": "2023-10-06T04:33:29.009Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "4ed965e7-afd6-446a-8974-555a479cc3ac",
+        "grade": 66937,
+        "enrollment_date": "2023-10-05T15:50:59.777Z",
+        "created_at": "2023-10-05T12:42:06.049Z",
+        "updated_at": "2023-10-06T01:02:31.841Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a117be5b-62bb-436c-97cd-7353466ea4f9",
+        "grade": 73399,
+        "enrollment_date": "2023-10-05T22:32:23.183Z",
+        "created_at": "2023-10-06T02:25:39.079Z",
+        "updated_at": "2023-10-05T09:22:40.069Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce21c133-e835-42a3-a423-e6bc278e4357",
+        "grade": 15171,
+        "enrollment_date": "2023-10-05T13:30:20.400Z",
+        "created_at": "2023-10-05T08:04:55.041Z",
+        "updated_at": "2023-10-05T18:15:50.665Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4cd361c0-7817-4984-bbdf-94b5d2386fa3",
+        "grade": 85398,
+        "enrollment_date": "2023-10-06T02:34:45.860Z",
+        "created_at": "2023-10-05T15:13:18.648Z",
+        "updated_at": "2023-10-05T14:16:37.907Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "900738b3-b7cd-466c-9cae-4e5807f4916e",
+        "grade": 41508,
+        "enrollment_date": "2023-10-05T21:10:27.322Z",
+        "created_at": "2023-10-05T19:46:58.501Z",
+        "updated_at": "2023-10-05T07:28:14.679Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parent": [
+      {
+        "id": "075afbab-4080-450e-9da3-d72649ec0b91",
+        "relation": "Father",
+        "contact_number": "1234567890",
+        "created_at": "2023-10-06T05:40:40.870Z",
+        "updated_at": "2023-10-06T02:32:20.320Z",
+        "student_id": "a117be5b-62bb-436c-97cd-7353466ea4f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f205cd46-77ce-4389-a260-d4ea5822ee21",
+        "relation": "Mother",
+        "contact_number": "9876543210",
+        "created_at": "2023-10-06T02:45:18.848Z",
+        "updated_at": "2023-10-05T22:01:13.432Z",
+        "student_id": "4ed965e7-afd6-446a-8974-555a479cc3ac",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1497267f-a2ac-4cb2-9adc-0b857ade03f2",
+        "relation": "Guardian",
+        "contact_number": "5555555555",
+        "created_at": "2023-10-05T22:12:53.358Z",
+        "updated_at": "2023-10-05T10:45:12.449Z",
+        "student_id": "4cd361c0-7817-4984-bbdf-94b5d2386fa3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5a588fd-87db-4914-97e7-9364dfecb75e",
+        "relation": "Grandparent",
+        "contact_number": "1111111111",
+        "created_at": "2023-10-05T15:15:57.672Z",
+        "updated_at": "2023-10-05T15:50:06.479Z",
+        "student_id": "a117be5b-62bb-436c-97cd-7353466ea4f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5523301-a525-4d6c-a569-687d8677cc42",
+        "relation": "Step-parent",
+        "contact_number": "9999999999",
+        "created_at": "2023-10-05T10:47:15.511Z",
+        "updated_at": "2023-10-05T23:39:09.365Z",
+        "student_id": "4ed965e7-afd6-446a-8974-555a479cc3ac",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "c87b2a6e-ad75-41e6-8559-7e48b2387497",
+        "name": "Introduction to Programming",
+        "description": "Explore the fundamentals of programming and problem-solving",
+        "created_at": "2023-10-05T22:23:22.569Z",
+        "updated_at": "2023-10-05T21:36:39.250Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "492fe585-004b-41dd-a4c5-61dd4e79fd83"
+      },
+      {
+        "id": "99ac8234-9425-480e-a13e-f253fd2d2e5f",
+        "name": "Advanced Mathematics",
+        "description": "Dive deep into complex mathematical concepts and problem-solving techniques",
+        "created_at": "2023-10-05T19:02:33.503Z",
+        "updated_at": "2023-10-06T02:12:08.054Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "d3b6d2af-21aa-4db5-aecc-4391b8ca3816"
+      },
+      {
+        "id": "ec695ac6-d5e4-4c30-9926-196a66d805ff",
+        "name": "Literature and Composition",
+        "description": "Analyze and interpret literary works while honing writing skills",
+        "created_at": "2023-10-05T17:33:27.270Z",
+        "updated_at": "2023-10-05T06:37:43.745Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "1b69cbb5-b443-471c-8282-606dcf4949ca"
+      },
+      {
+        "id": "53458d0c-3aa0-4cfb-92c6-3b854bcf7f55",
+        "name": "World History",
+        "description": "Discover the history of civilizations and their impact on the world",
+        "created_at": "2023-10-05T07:28:15.895Z",
+        "updated_at": "2023-10-05T10:38:24.160Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "d3b6d2af-21aa-4db5-aecc-4391b8ca3816"
+      },
+      {
+        "id": "c6894bd1-a2d8-4939-a722-36f7394ee217",
+        "name": "Digital Design",
+        "description": "Create digital art and designs using industry-standard software",
+        "created_at": "2023-10-06T02:17:31.764Z",
+        "updated_at": "2023-10-06T00:36:47.840Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "1b69cbb5-b443-471c-8282-606dcf4949ca"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9a04b1a9-12cf-47d1-9643-bbcb89823c4f",
+        "email": "Jerrold49@roq.tech",
+        "firstName": "Nedra",
+        "lastName": "Zulauf",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/80.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d35e035d-f727-41cc-8037-9407082acdce",
+        "email": "Armani.Kirlin53@roq.tech",
+        "firstName": "Domenico",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30731084",
+        "tenantId": null
+      },
+      {
+        "reference": "2c06fca1-45cb-40da-878c-b9eda7097f1d",
+        "email": "Kennedi4@roq.tech",
+        "firstName": "Dusty",
+        "lastName": "Gleason",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1202.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "93f66b7d-26d8-4c9b-a924-1da3b5d3f6d3",
+        "email": "Alivia.King@roq.tech",
+        "firstName": "Alvis",
+        "lastName": "Kuhn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50528680",
+        "tenantId": null
+      },
+      {
+        "reference": "b36c98aa-ba68-4568-89c4-9f2c08e1f94d",
+        "email": "Giovani90@roq.tech",
+        "firstName": "Dasia",
+        "lastName": "Bailey-Spinka",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18437864",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "9ceec7fd-cb51-456a-815e-642271194f92",
+        "subject": "Mathematics",
+        "hire_date": "2023-10-06T04:29:12.741Z",
+        "created_at": "2023-10-05T23:11:08.752Z",
+        "updated_at": "2023-10-06T04:27:43.148Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f945ac0a-6ba0-48ab-96e8-a12a2e7009d6",
+        "subject": "English Literature",
+        "hire_date": "2023-10-05T13:03:55.283Z",
+        "created_at": "2023-10-05T09:01:03.064Z",
+        "updated_at": "2023-10-06T05:32:31.068Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c43a62c4-cf49-42b5-9756-585b8c88cd3a",
+        "subject": "Science",
+        "hire_date": "2023-10-05T15:45:06.604Z",
+        "created_at": "2023-10-06T03:05:27.552Z",
+        "updated_at": "2023-10-06T02:54:07.354Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "efebd3e9-2c20-4b4f-9fd7-09317803dd24",
+        "subject": "History",
+        "hire_date": "2023-10-06T02:04:06.311Z",
+        "created_at": "2023-10-05T15:34:08.696Z",
+        "updated_at": "2023-10-06T00:43:57.502Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d0fd380-151c-40cd-9a7a-cbcb04bbcdaa",
+        "subject": "Computer Science",
+        "hire_date": "2023-10-05T22:09:06.165Z",
+        "created_at": "2023-10-06T00:01:09.335Z",
+        "updated_at": "2023-10-05T11:06:33.786Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "ca73d570-70d8-4ed2-b77e-f851d45cc8fd",
+        "grade": 72846,
+        "enrollment_date": "2023-10-06T05:39:20.980Z",
+        "created_at": "2023-10-05T14:26:19.387Z",
+        "updated_at": "2023-10-05T12:03:57.499Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f41c5a9a-d42f-488e-96f2-096246163f78",
+        "grade": 69349,
+        "enrollment_date": "2023-10-06T01:42:22.598Z",
+        "created_at": "2023-10-05T17:11:17.233Z",
+        "updated_at": "2023-10-05T15:14:18.132Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "772b81ed-fc64-4428-bd71-2fabb2284672",
+        "grade": 41921,
+        "enrollment_date": "2023-10-06T02:17:07.322Z",
+        "created_at": "2023-10-05T19:11:50.763Z",
+        "updated_at": "2023-10-06T05:53:38.052Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f5d0158-7b89-48a2-81f9-a2259e08086d",
+        "grade": 66235,
+        "enrollment_date": "2023-10-05T20:34:07.488Z",
+        "created_at": "2023-10-05T08:39:22.269Z",
+        "updated_at": "2023-10-06T00:23:10.836Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4cc89943-640b-4d69-917b-b077b6889dea",
+        "grade": 6411,
+        "enrollment_date": "2023-10-05T19:56:21.585Z",
+        "created_at": "2023-10-06T04:29:59.239Z",
+        "updated_at": "2023-10-05T10:11:16.582Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parent": [
+      {
+        "id": "fd7c214e-4ad6-499c-88ec-f76f852f48a3",
+        "relation": "Father",
+        "contact_number": "+1 123-456-7890",
+        "created_at": "2023-10-05T19:05:55.660Z",
+        "updated_at": "2023-10-05T12:37:06.175Z",
+        "student_id": "4cc89943-640b-4d69-917b-b077b6889dea",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ddbfb807-a8ad-4919-b437-0239a8e794ac",
+        "relation": "Mother",
+        "contact_number": "+1 987-654-3210",
+        "created_at": "2023-10-05T17:24:23.949Z",
+        "updated_at": "2023-10-06T05:32:29.780Z",
+        "student_id": "ca73d570-70d8-4ed2-b77e-f851d45cc8fd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bdbe6b54-c154-4f98-8201-c5df3de70bc6",
+        "relation": "Guardian",
+        "contact_number": "+1 555-123-4567",
+        "created_at": "2023-10-05T12:40:35.479Z",
+        "updated_at": "2023-10-06T01:55:10.837Z",
+        "student_id": "772b81ed-fc64-4428-bd71-2fabb2284672",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "096bc7cf-c333-416e-83a1-822fb00f3b15",
+        "relation": "Step-parent",
+        "contact_number": "+1 888-999-0000",
+        "created_at": "2023-10-06T04:48:21.589Z",
+        "updated_at": "2023-10-05T06:21:03.389Z",
+        "student_id": "ca73d570-70d8-4ed2-b77e-f851d45cc8fd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "322ca0a6-662a-44cf-88fd-f655e31edac3",
+        "relation": "Grandparent",
+        "contact_number": "+1 777-888-9999",
+        "created_at": "2023-10-05T09:33:47.192Z",
+        "updated_at": "2023-10-05T09:09:31.961Z",
+        "student_id": "f41c5a9a-d42f-488e-96f2-096246163f78",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "43302880-5e74-4989-a20d-84ff84c62778",
+        "name": "Algebra I",
+        "description": "Explore the world of equations and variables",
+        "created_at": "2023-10-05T10:57:43.139Z",
+        "updated_at": "2023-10-05T17:13:09.499Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "5d0fd380-151c-40cd-9a7a-cbcb04bbcdaa"
+      },
+      {
+        "id": "3bddbbcc-f783-4b5e-b5ba-9ed3309d4511",
+        "name": "Biology",
+        "description": "Discover the wonders of life and living organisms",
+        "created_at": "2023-10-06T03:03:08.591Z",
+        "updated_at": "2023-10-06T01:03:23.512Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "5d0fd380-151c-40cd-9a7a-cbcb04bbcdaa"
+      },
+      {
+        "id": "43988af9-0517-4008-b27a-9fb422cb3fc9",
+        "name": "English Composition",
+        "description": "Enhance your writing skills and express yourself",
+        "created_at": "2023-10-05T15:57:07.043Z",
+        "updated_at": "2023-10-05T10:57:07.625Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "9ceec7fd-cb51-456a-815e-642271194f92"
+      },
+      {
+        "id": "3bc2e409-e7ae-41c0-a56a-abbddff95421",
+        "name": "World History",
+        "description": "Uncover the past and understand its impact on the present",
+        "created_at": "2023-10-05T21:01:18.681Z",
+        "updated_at": "2023-10-06T04:21:06.841Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "c43a62c4-cf49-42b5-9756-585b8c88cd3a"
+      },
+      {
+        "id": "19ae9d80-e4f6-49ef-b2c0-dbcd410acab4",
+        "name": "Computer Programming",
+        "description": "Learn to code and create innovative software",
+        "created_at": "2023-10-05T12:11:17.800Z",
+        "updated_at": "2023-10-06T01:23:32.798Z",
+        "school_id": "main_entity_pk",
+        "teacher_id": "9ceec7fd-cb51-456a-815e-642271194f92"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2c9b30f6-23e7-4931-aa0f-b7984427e3bd",
+        "email": "Felipa_Larson@roq.tech",
+        "firstName": "Prince",
+        "lastName": "Lueilwitz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1084.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d5768913-18f7-4be6-8e2b-88e7f962c716",
+        "email": "Pete55@roq.tech",
+        "firstName": "Richie",
+        "lastName": "Roob",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15755308",
+        "tenantId": null
+      },
+      {
+        "reference": "185c9f1e-b6ed-489b-811f-0f555836381a",
+        "email": "Russel_Jacobson@roq.tech",
+        "firstName": "Joanie",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54119465",
+        "tenantId": null
+      },
+      {
+        "reference": "cb485ca3-c0fe-4d99-9d01-874446ce6ad8",
+        "email": "Berta77@roq.tech",
+        "firstName": "Jared",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64144126",
+        "tenantId": null
+      },
+      {
+        "reference": "ad2a6174-a4c4-4374-9f78-9988ca03fe7b",
+        "email": "Carson78@roq.tech",
+        "firstName": "Bill",
+        "lastName": "Gislason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48839010",
+        "tenantId": null
+      }
+    ]
+  }
+]
